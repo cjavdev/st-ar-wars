@@ -8,4 +8,5 @@
 #  updated_at :datetime         not null
 #
 class Species < ApplicationRecord
+  has_many :people
 end
