@@ -3,6 +3,8 @@
 Add associations to the models in `app/models/*.rb` to make the tests
 pass.
 
+[Video Walkthrough](https://youtu.be/E2jk4h1gQ2I)
+
 ## Setup
 
 ```sh
@@ -43,3 +45,9 @@ rspec spec
 ### Species
 
 - You should be able to see the people of this species.
+
+
+## Answers
+
+If you want to see the answers, skip ahead to the back of the book by looking
+at the `finished` branch.
