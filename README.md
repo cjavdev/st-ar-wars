@@ -1,24 +1,29 @@
-# README
+# Active Record Association Kata
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Add associations to the models in `app/models/*.rb` to make the tests
+pass.
 
-Things you may want to cover:
+### Film
 
-* Ruby version
+- You should be able to list the people in a given film.
 
-* System dependencies
+### Person
 
-* Configuration
+- You should be able to see which species a person is.
+- You should be able to see which home planet a person is from.
+- You should be able to determine who the person's senator (another Person) is.
+- You should be able to see which films the person is in.
+- You should be able to list the citizens of the person's home planet.
 
-* Database creation
+### PersonFilm
 
-* Database initialization
+- This is a join table listing the films people starred in.
 
-* How to run the test suite
+### Planet
 
-* Services (job queues, cache servers, search engines, etc.)
+- You should be able to see the list of citizens (Person) are from this planet.
+- You should be able to see the senator for this planet.
 
-* Deployment instructions
+### Species
 
-* ...
+- You should be able to see the people of this species.
