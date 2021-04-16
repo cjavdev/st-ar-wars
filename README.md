@@ -3,6 +3,22 @@
 Add associations to the models in `app/models/*.rb` to make the tests
 pass.
 
+## Setup
+
+```sh
+git clone git@github.com:cjavdev/st-ar-wars.git
+cd st-ar-wars
+bundle install
+rails db:create db:migrate
+```
+
+## Running the tests
+
+```sh
+rspec spec
+```
+
+
 ### Film
 
 - You should be able to list the people in a given film.
