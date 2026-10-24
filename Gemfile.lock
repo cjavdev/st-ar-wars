@@ -152,7 +152,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.7)
-    rack-mini-profiler (2.3.4)
+    rack-mini-profiler (5.0.0)
       rack (>= 1.2.0)
     rack-session (2.1.2)
       base64 (>= 0.1.0)
@@ -266,7 +266,7 @@ DEPENDENCIES
   listen (~> 3.3)
   pg (~> 1.1)
   puma (>= 6.0)
-  rack-mini-profiler (~> 2.0)
+  rack-mini-profiler (~> 5.0)
   rails (~> 8.1.0)
   rspec-rails
   shoulda-matchers
